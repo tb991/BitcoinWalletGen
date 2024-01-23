@@ -43,7 +43,7 @@ end
 
 
 # Convert Private Key to WIF
-privatekey = "<paste hex of pvt key here>"
+privatekey = "<paste hex of pvt key here but REMEMBER TO DELETE EVENTUALLY>"
 
 extended = "80" + privatekey + "01"
 extendedchecksum = extended + checksum(extended)
